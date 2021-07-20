@@ -68,9 +68,9 @@
     <Compile Include="Assets\Scripts\Asteroid.cs" />
     <Compile Include="Assets\Scripts\YControl.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
+    <Compile Include="Assets\Scripts\PoolPlayer.cs" />
     <Compile Include="Assets\Scripts\PoolAster.cs" />
     <Compile Include="Assets\Scripts\Pool.cs" />
-    <Compile Include="Assets\Scripts\PoolPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -33,17 +33,18 @@ public class UFO : SceneSettings
         float waittime = Random.Range(timeperspawnbegin, timeperspawnend);
 
         yield return new WaitForSeconds(waittime);
-        isActive = true;
+        
         gameObject.GetComponent<Renderer>().enabled = true;
         gameObject.GetComponent<CapsuleCollider2D>().enabled = true;
-        StartCoroutine(ShotUFO());
+        
         
 
         float vector= Mathf.Sign(Random.Range(-1f, 1f));
         transform.position = new Vector3(-vector * (width / 2 - transform.localScale.x), Random.Range(-height / 2 * 0.6f, height / 2 * 0.6f), 0);
         transform.rotation = new Quaternion(0, 0, 0, 0);
         GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(minV, maxV) * vector, 0);
-
+        isActive = true;
+        StartCoroutine(ShotUFO());
     }
     public void Respawn()
     {

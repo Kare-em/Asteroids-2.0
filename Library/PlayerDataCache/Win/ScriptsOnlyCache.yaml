@@ -7,8 +7,8 @@ ScriptsOnlyBuild:
     - BulletUFO
     - GameSettings
     - MainMenuController
-    - Pool
     - PoolAster
+    - PoolPlayer
     - PoolUFO
     - SceneSettings
     - ScoreCtrl
@@ -20,7 +20,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -33,8 +32,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -124,9 +121,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4388}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 4748}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5454}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -366,13 +363,13 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 6042f1f9234612567fcaafde651f513f
+      Hash: 840458577bca7c20a260feb0cfa6c406
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenuController
   - hash:
       serializedVersion: 2
-      Hash: 1792c4525c0fcf94a482a270559da575
+      Hash: 8a604c74cc190e4c5f36675ca269f43d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UFO
@@ -420,7 +417,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: d3fce4db4cec51aa04e027242cc37d89
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameSettings
@@ -474,7 +471,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 2576ce26b12a6d3d4dfe338ae8c1b9a8
+      Hash: 90c984a854c8ceda780bf8481c15b363
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneSettings
@@ -492,7 +489,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 833c3fb856b4df3e114c28701e5fd978
+      Hash: ad8338f88906f0d9fc5a095301406d59
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShipCtrl
@@ -636,6 +633,12 @@ ScriptsOnlyBuild:
     className: YControl
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartMenu
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -694,6 +697,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9426c442ff018248a5e4bba45389f96d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PoolPlayer
   - hash:
       serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
@@ -790,12 +799,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StartMenu
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
